@@ -1,0 +1,8 @@
+logging:
+  level:
+    top.iot.gateway: warn
+    rule.engine: debug
+spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
